@@ -1,0 +1,7 @@
+[mcp_servers.bubble-agent]
+command = "npx"
+args = ["-y", "bubble-agent-mcp"]
+
+[mcp_servers.bubble-agent.env]
+BUBBLE_AGENT_API_KEY = "your_personal_api_key"
+BUBBLE_AGENT_PROJECT_ID = "your_project_id"

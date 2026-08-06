@@ -1,0 +1,62 @@
+{
+  "name": "bubble-agent-mcp",
+  "version": "0.1.0",
+  "description": "Open-source MCP server for discovering and understanding fast-growing internet conversations with Bubble Agent.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Subio",
+  "bin": {
+    "bubble-agent-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "check": "pnpm typecheck && pnpm test && pnpm build",
+    "prepublishOnly": "pnpm check"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bubble-agent",
+    "internet-intelligence",
+    "trends",
+    "claude",
+    "codex",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alijancb/bubble-agent-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alijancb/bubble-agent-mcp/issues"
+  },
+  "homepage": "https://subio.space",
+  "packageManager": "pnpm@11.9.0"
+}
