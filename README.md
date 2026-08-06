@@ -6,7 +6,7 @@
 
 An open-source Model Context Protocol server that brings live Bubble Agent intelligence into Claude, Codex, Cursor, and every MCP-compatible client.
 
-[Website](https://subio.space) · [Quick start](#quick-start) · [Tools](#tools) · [Security](#security) · [Contributing](CONTRIBUTING.md)
+[Website](https://subio.space) · [Install with AI](INSTALL.md) · [Quick start](#quick-start) · [Tools](#tools) · [Security](#security) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -34,6 +34,10 @@ This MCP server lets your AI client ask questions such as:
 It also exposes `bubble://workspace/profile`, a non-sensitive MCP resource containing the company and audience context used for personalization.
 
 ## Quick start
+
+### No-code installation
+
+Download the instruction file for [Claude, Codex, Cursor, or another AI agent](INSTALL.md), attach it to your agent, and say: **“Install Bubble Agent MCP for me and verify it works.”** The agent will handle the configuration and ask only for your Bubble Agent credentials.
 
 ### Requirements
 
