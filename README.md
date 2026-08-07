@@ -42,10 +42,12 @@ Download the instruction file for [Claude, Codex, Cursor, or another AI agent](I
 ### Requirements
 
 - Node.js 20 or newer
-- A Bubble Agent workspace
-- A project ID and personal API key
+- A Subio account
+- A project ID and personal API key from [subio.space/settings/api-keys](https://subio.space/settings/api-keys)
 
-Early-access users receive workspace credentials with their invite. Never commit your API key to a repository or paste it into a prompt.
+Sign in at [subio.space/settings/api-keys](https://subio.space/settings/api-keys), create a key, and copy both values. The API key is shown only once. Never commit it to a repository or paste it into a prompt.
+
+If you run `npx -y bubble-agent-mcp` without credentials in an interactive terminal, the command opens the secure Subio sign-in page. Create the credentials, add them to your MCP client configuration, and run the command again.
 
 ### Claude Desktop
 

@@ -10,7 +10,7 @@ npx -y bubble-agent-mcp
 
 ## Rules
 
-- Ask the user only for the missing `BUBBLE_AGENT_API_KEY` and `BUBBLE_AGENT_PROJECT_ID`.
+- If credentials are missing, open https://subio.space/settings/api-keys for the user. Ask only for the resulting `BUBBLE_AGENT_API_KEY` and `BUBBLE_AGENT_PROJECT_ID`.
 - Treat the API key as a secret. Never print it back, commit it, or place it in a project file tracked by Git.
 - Do not change unrelated settings.
 - Preserve all existing MCP servers when editing a configuration file.

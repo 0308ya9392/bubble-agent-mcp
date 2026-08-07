@@ -14,7 +14,7 @@ npx -y bubble-agent-mcp
 2. Download its `INSTALL.md` file.
 3. Attach the file to a new conversation with that client.
 4. Say: **“Install Bubble Agent MCP for me and verify it works.”**
-5. Provide your Bubble Agent project ID and API key only when asked.
+5. If credentials are missing, open https://subio.space/settings/api-keys, sign in, create a key, and provide the project ID and API key only when asked.
 
 | Client | Agent instruction |
 | --- | --- |
@@ -24,4 +24,3 @@ npx -y bubble-agent-mcp
 | Any other MCP-compatible agent | [`Other-agents/INSTALL.md`](Other-agents/INSTALL.md) |
 
 The instruction tells the agent to preserve existing MCP servers, configure Bubble Agent securely, run diagnostics, and verify the connection.
-

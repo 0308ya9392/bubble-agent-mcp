@@ -10,7 +10,7 @@ npx -y bubble-agent-mcp
 
 ## Rules
 
-- Ask only for a missing `BUBBLE_AGENT_API_KEY` and `BUBBLE_AGENT_PROJECT_ID`.
+- If credentials are missing, open https://subio.space/settings/api-keys for the user. Ask only for the resulting `BUBBLE_AGENT_API_KEY` and `BUBBLE_AGENT_PROJECT_ID`.
 - Never echo, commit, or expose the API key.
 - Preserve every existing Cursor MCP server and unrelated setting.
 - Prefer the published npm package. If it is unavailable, use `github:alijancb/bubble-agent-mcp` as the final `npx` argument.
@@ -42,4 +42,3 @@ npx -y bubble-agent-mcp
 7. Reload Cursor and confirm these tools exist: `get_bubbles`, `search_bubbles`, `get_bubble_details`, `compare_bubbles`, and `generate_content`.
 8. Make one read-only test request: “Show me today’s strongest Bubbles.”
 9. Report success without revealing credentials.
-

@@ -132,7 +132,7 @@ export function configFromEnv(env: NodeJS.ProcessEnv = process.env): BubbleAgent
   if (!apiKey || !projectId) {
     throw new BubbleAgentApiError(
       'CONFIG_REQUIRED',
-      'Set BUBBLE_AGENT_API_KEY and BUBBLE_AGENT_PROJECT_ID before starting Bubble Agent MCP.',
+      'Get credentials at https://subio.space/settings/api-keys, then set BUBBLE_AGENT_API_KEY and BUBBLE_AGENT_PROJECT_ID.',
     );
   }
   return configSchema.parse({

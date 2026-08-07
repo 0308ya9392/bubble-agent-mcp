@@ -11,8 +11,8 @@ npx -y bubble-agent-mcp
 ## Ask the user for
 
 - Their MCP client name, only if you cannot detect it.
-- `BUBBLE_AGENT_API_KEY`, only if it is not already securely available.
-- `BUBBLE_AGENT_PROJECT_ID`, only if it is not already available.
+- `BUBBLE_AGENT_API_KEY`, only if it is not already securely available. Get it from https://subio.space/settings/api-keys.
+- `BUBBLE_AGENT_PROJECT_ID`, only if it is not already available. It is shown with the key on the same page.
 
 Never repeat, log, commit, or expose the API key.
 
